@@ -3,6 +3,9 @@ Es un proyecto base JavaScript creado con un entorno de ejecución con framework
 de código abierto para desarrolladores que necesitan construir una aplicación 
 escalable y de alto rendimiento del lado del servidor.
 
+## Clonación
+```git clone https://github.com/joaquinhmtz/API_NODEJS.git```
+
 ## Estrcutura del proyecto
 ```
 API_NODEJS
@@ -66,7 +69,7 @@ API_NODEJS
     "cors": "Middleware para ExpressJs que permite habilitar el CORS con varias opciones",
     "dotenv": "Permite cargar variables de entorno desde un archivo .env",
     "express": "Framework para construir API Rest en una aplicación NodeJs",
-    "express-session": "Gestión de sesiones para preservar los datos de múltiples solicitudes del mismo cliente",
+    "express-sessiosn": "Gestión de sesiones para preservar los datos de múltiples solicitudes del mismo cliente",
     "jsonwebtoken": "Generación de token para el cliente",
     "moment": "Permite la manipulación para variables de tipo fecha",
     "mongoose": "Permite crear nuestros modelos de base de datos y conexión hacia la misma",
@@ -77,3 +80,6 @@ API_NODEJS
     "puppeteer": "Generación de PDF desde el servidor"
 }
 ```
+
+## Corre aplicación
+```node app```
