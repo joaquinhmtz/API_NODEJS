@@ -27,3 +27,21 @@ escalable y de alto rendimiento del lado del servidor.
         "puppeteer": "^14.3.0"
     }
 ```
+
+## Uso de librerías
+```json
+{
+   "cors": "Middleware para ExpressJs que permite habilitar el CORS con varias opciones",
+    "dotenv": "Permite cargar variables de entorno desde un archivo .env",
+    "express": "Framework para construir API Rest en una aplicación NodeJs",
+    "express-session": "Gestión de sesiones para preservar los datos de múltiples solicitudes del mismo cliente",
+    "jsonwebtoken": "Generación de token para el cliente",
+    "moment": "Permite la manipulación para variables de tipo fecha",
+    "mongoose": "Permite crear nuestros modelos de base de datos y conexión hacia la misma",
+    "multer": "Middleware para guardar archivos enviados desde el cliente",
+    "passport": "Middleware de autenticación",
+    "passport-local": "Módulo que permite autenticarse por medio de usuario y contraseña",
+    "passport-local-mongoose": "Módulo que permite autenticarse con nombre de usuario y contraseña haciendo el guardado del hash y salt en un esquema de MongoDB",
+    "puppeteer": "Generación de PDF desde el servidor"
+}
+```
