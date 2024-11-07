@@ -81,5 +81,5 @@ API_NODEJS
 }
 ```
 
-## Corre aplicación
+## Correr aplicación
 ```node app```
