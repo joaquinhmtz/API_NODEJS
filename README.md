@@ -14,24 +14,23 @@ escalable y de alto rendimiento del lado del servidor.
     "dependencies": {
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
-        "express": "^4.19.2",
-        "express-session": "^1.18.0",
+        "express": "^4.21.1",
+        "express-session": "^1.18.1",
         "jsonwebtoken": "^9.0.2",
-        "moment": "^2.24.0",
-        "mongoose": "^5.13.22",
+        "moment": "^2.30.1",
+        "mongoose": "^8.8.0",
         "multer": "^1.4.5-lts.1",
-        "nodemon": "^3.1.4",
         "passport": "^0.7.0",
         "passport-local": "^1.0.0",
         "passport-local-mongoose": "^8.0.0",
-        "puppeteer": "^14.3.0"
+        "puppeteer": "^23.7.1"
     }
 ```
 
 ## Uso de librerías
 ```json
 {
-   "cors": "Middleware para ExpressJs que permite habilitar el CORS con varias opciones",
+    "cors": "Middleware para ExpressJs que permite habilitar el CORS con varias opciones",
     "dotenv": "Permite cargar variables de entorno desde un archivo .env",
     "express": "Framework para construir API Rest en una aplicación NodeJs",
     "express-session": "Gestión de sesiones para preservar los datos de múltiples solicitudes del mismo cliente",
