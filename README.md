@@ -23,6 +23,9 @@ API_NODEJS
 ├─── public
 │    └─── static (Archivos estáticos, etc..)
 ├─── utils
+│    └─── pdf
+│         └─── templates
+│         └─── puppeteer.pdf.js (Script para generar pdf)
 │    └─── global.utils.js (Utilería global)
 └─── app.js
 ```
@@ -36,6 +39,9 @@ API_NODEJS
     * Edición de usuarios
     * Eliminación lógico de usuarios
     * Listado de usuarios (paginación y filtros de búsqueda)
+
+* **Útilería extra**
+    * Generación de PDF con puppeteer
 
 ## Versión
 `nvm use v19.7.0`
