@@ -6,7 +6,7 @@ escalable y de alto rendimiento del lado del servidor.
 ## Clonación
 ```git clone https://github.com/joaquinhmtz/API_NODEJS.git```
 
-## Estrcutura del proyecto
+## Estructura del proyecto
 ```
 API_NODEJS
 ├─── middlewares
