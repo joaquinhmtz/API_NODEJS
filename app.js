@@ -15,7 +15,7 @@ const dotenv = require('dotenv').config();
 let errorHandler = require("./middlewares/errorHandler.middleware");
 const MkdirFolders = require('./utils/global.utils').MkdirFolders;
 
-let uri = "mongodb://localhost:27017/database";
+let uri = "mongodb://localhost:27017/undefined";
 
 const connectDb = async () => {
     try {

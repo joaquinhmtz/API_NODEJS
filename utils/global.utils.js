@@ -27,6 +27,7 @@ function MkdirFolders () {
             if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
             if (!fs.existsSync(publicDir + '/client')) fs.mkdirSync(publicDir + '/client');
             if (!fs.existsSync(publicDir + '/static')) fs.mkdirSync(publicDir + '/static');
+            if (!fs.existsSync(publicDir + '/static' + '/pdfs')) fs.mkdirSync(publicDir + '/static' + '/pdfs');
 
             resolve(true);
         } catch (e) {
